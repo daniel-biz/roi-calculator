@@ -1,0 +1,68 @@
+.roi-widget {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #0A0920;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.roi-widget h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.roi-widget label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.roi-widget input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.roi-widget button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4452E4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.roi-widget button:hover {
+    background-color: #3a46c7;
+}
+
+.hidden {
+    display: none;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+#results h3 {
+    margin-bottom: 10px;
+}
+
+#results p {
+    margin: 5px 0;
+}
